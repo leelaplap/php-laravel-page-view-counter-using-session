@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 use Illuminate\Support\Str;
 
@@ -33,7 +33,7 @@ return [
 
     'lifetime' => env('SESSION_LIFETIME', 120),
 
-    'expire_on_close' => false,
+    'expire_on_close' => true,
 
     /*
     |--------------------------------------------------------------------------
